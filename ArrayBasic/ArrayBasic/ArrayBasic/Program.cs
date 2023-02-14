@@ -10,7 +10,7 @@ namespace ArrayBasic
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("1 ArrayLength");
+            Console.WriteLine("1 ArrayLength, \n2 ArrayLength");
             Console.WriteLine("choose the option");
             int opiton = Convert.ToInt32(Console.ReadLine());
 
@@ -19,6 +19,10 @@ namespace ArrayBasic
                 case 1:
                     MaxMinNumber minMaxNUmber = new MaxMinNumber();
                     minMaxNUmber.MinMax();
+                    break;
+                case 2:
+                    ArrayLength arrayLength = new ArrayLength();
+                    arrayLength.Length();
                     break;
             }
         }
