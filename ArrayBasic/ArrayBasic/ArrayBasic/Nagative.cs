@@ -6,7 +6,20 @@ using System.Threading.Tasks;
 
 namespace ArrayBasic
 {
-    internal class Nagative
+    public class Nagative
     {
+        public void NagativeValue()
+        {
+            int[] array = { 10, -20, 30, 40 ,-50 };
+            Console.WriteLine("Negative Numbers are:");
+            foreach (int number in array)
+            {
+                if (number < 0)
+                {
+                    Console.WriteLine("Negative Numbers are" + number);
+                }
+            }
+            Console.ReadLine();
+        }
     }
 }

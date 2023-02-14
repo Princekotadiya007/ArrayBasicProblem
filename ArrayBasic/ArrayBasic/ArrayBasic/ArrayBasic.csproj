@@ -43,8 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayCount.cs" />
     <Compile Include="ArrayLength.cs" />
     <Compile Include="MaxMinNumber.cs" />
+    <Compile Include="Nagative.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sum.cs" />

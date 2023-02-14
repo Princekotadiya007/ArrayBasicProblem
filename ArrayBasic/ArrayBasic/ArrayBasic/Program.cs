@@ -10,7 +10,7 @@ namespace ArrayBasic
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("1 ArrayLength, \n2 ArrayLength, \n3 Sum");
+            Console.WriteLine("1 ArrayLength, \n2 ArrayLength, \n3 Sum, \n4 NagativeNumber");
             Console.WriteLine("choose the option");
             int opiton = Convert.ToInt32(Console.ReadLine());
 
@@ -27,6 +27,10 @@ namespace ArrayBasic
                 case 3:
                     Sum sum = new Sum();
                     sum.SumValue();
+                    break;
+                case 4:
+                    Nagative nagative = new Nagative();
+                    nagative.NagativeValue();
                     break;
             }
         }
