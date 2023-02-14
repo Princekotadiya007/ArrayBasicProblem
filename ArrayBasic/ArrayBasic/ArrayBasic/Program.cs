@@ -10,7 +10,7 @@ namespace ArrayBasic
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("1 ArrayLength, \n2 ArrayLength");
+            Console.WriteLine("1 ArrayLength, \n2 ArrayLength, \n3 Sum");
             Console.WriteLine("choose the option");
             int opiton = Convert.ToInt32(Console.ReadLine());
 
@@ -23,6 +23,10 @@ namespace ArrayBasic
                 case 2:
                     ArrayLength arrayLength = new ArrayLength();
                     arrayLength.Length();
+                    break;
+                case 3:
+                    Sum sum = new Sum();
+                    sum.SumValue();
                     break;
             }
         }
